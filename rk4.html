@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Rückenkälte – Blatt mit Bildern und Text. Umsonst.</title>
+        <link rel="stylesheet" type="text/css" href="rk.css" />
+        <!-- include jQuery library -->
+        <script type="text/javascript" src="./jquery-1.4.2.min.js"></script>
+        <!-- include Cycle plugin -->
+        <script
+            type="text/javascript"
+            src="./jquery.cycle.lite.1.0.min.js"
+        ></script>
+        <script type="text/javascript">
+            $(function() {
+                $("#slideshow").cycle();
+            });
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <a href="http://rueckenkaelte.de/">
+                <img src="img/title.gif" alt="rückenkälte" id="title" />
+            </a>
+            <div id="slideshow">
+                <img src="img/RK_N4_1.jpg" alt="ausgabe 4" />
+                <img src="img/RK_N4_2.jpg" alt="ausgabe 4" />
+                <img src="img/RK_N4_3.jpg" alt="ausgabe 4" />
+                <img src="img/RK_N4_4.jpg" alt="ausgabe 4" />
+                <img src="img/RK_N4_5.jpg" alt="ausgabe 4" />
+            </div>
+            <ul id="ausgaben-nav">
+                <li><a href="rk1.html">N&ordm; 01</a> /</li>
+                <li><a href="rk2.html">N&ordm; 02</a> /</li>
+                <li><a href="rk3.html">N&ordm; 03</a> /</li>
+                <li class="aktiv"><a href="rk4.html">N&ordm; 04</a> /</li>
+                <li>
+                    <a href="rk5.html"
+                        >N&ordm; 0<span class="ungesperrt">5</span></a
+                    >
+                </li>
+            </ul>
+            <ul id="mitarbeiter">
+                <li>Björn Ganslandt /</li>
+                <li>Ines Christine Geißer /</li>
+                <li>Kirsten Carina Geißer /</li>
+                <li>Benjamin Lüttgen /</li>
+                <li>Peter Merk /</li>
+                <li>Marta Muschietti /</li>
+                <li>Achim Passen /</li>
+                <li>Wolf D. Schreiber /</li>
+                <li>Katie Scott /</li>
+                <li>Kerstin Szonn</li>
+            </ul>
+            <ul id="links">
+                <li><a href="kontakt.html">Kontakt</a> /</li>
+                <li><a href="kontakt.html">Impressum</a> /</li>
+                <li>
+                    <a href="http://www.flickr.com/people/rueckenkaelte/"
+                        >Flickr</a
+                    >
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

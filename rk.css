@@ -1,0 +1,130 @@
+body,
+img,
+ul,
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+}
+span.ungesperrt {
+    letter-spacing: 0;
+}
+
+body {
+    background-color: #eaeae1;
+    color: #676762;
+    font-family: "Times", "Times New Roman", Serif;
+    text-align: center;
+}
+div#container {
+    width: 918px;
+    margin: 57px auto;
+    text-align: left;
+}
+
+img#title {
+    margin-left: 162px;
+    margin-bottom: 36px;
+    border: none;
+    padding-bottom: 4px;
+}
+a > img#title {
+    display: block;
+}
+a:hover img#title {
+    border-bottom: 2px solid #4e4c4d;
+    padding-bottom: 2px;
+}
+
+div#ankuendigung {
+    color: #4e4c4d;
+    font-size: 25px;
+    letter-spacing: 26px;
+    margin-bottom: 50px;
+    padding: 0 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+div#ankuendigung a {
+    text-decoration: none;
+    color: #4e4c4d;
+}
+div#ankuendigung a:hover {
+    text-decoration: underline;
+}
+
+div#slideshow {
+    height: 512px;
+    width: 918px;
+}
+
+ul#ausgaben-nav {
+    text-align: center;
+    margin: 13px 0 11px;
+}
+ul#ausgaben-nav li,
+ul#ausgaben-nav li a {
+    color: #c7c7bf;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 15px;
+}
+ul#ausgaben-nav li.aktiv,
+ul#ausgaben-nav li.aktiv a,
+ul#ausgaben-nav li a:hover {
+    color: #676762;
+}
+
+ul#mitarbeiter {
+    border-top: 1px solid #3b3b38;
+    padding: 13px 129px 0;
+    margin-top: 0;
+}
+ul#mitarbeiter li {
+    color: #676762;
+    display: inline;
+    font-size: 17px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+ul#links {
+    margin-top: 128px;
+    text-align: center;
+}
+ul#links li,
+ul#links li a {
+    color: #c7c7bf;
+    font-size: 11px;
+    letter-spacing: 15px;
+    display: inline;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+ul#links li a:hover {
+    color: #676762;
+}
+
+dl#kontakt {
+    text-align: center;
+    padding: 0 129px;
+}
+dl#kontakt dd,
+dl#kontakt dd a,
+dl#kontakt dt {
+    color: #676762;
+    font-size: 17px;
+    letter-spacing: 3px;
+    line-height: 30px;
+    text-decoration: none;
+}
+dl#kontakt dd a:hover {
+    color: #4e4c4d;
+}
+dl#kontakt dt {
+    color: #4e4c4d;
+    margin-top: 30px;
+}
